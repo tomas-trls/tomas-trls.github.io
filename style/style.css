@@ -66,6 +66,17 @@ body {
     }
 }
 
+#cursor{
+            width: 30px;
+            height: 30px;
+            background-color:rgba(250, 128, 114, 0.774);
+            position: absolute;
+            border-radius: 50%;
+            border: 2px solid #fa8072;
+            transform: translate(-50%,-50%);
+            pointer-events: none;
+        }
+
 .container {
   width: 700px;
   margin: 0 auto;
@@ -176,7 +187,7 @@ a:hover {
 .grid-card-title {
   margin: 0  auto;
   font-family: 'Ostrich-Medium';
-  font-size: 1em;
+  font-size: 1.2em;
   color: #262626;
   background-color:#D9D9D9 ;
   padding: 12px 0;
