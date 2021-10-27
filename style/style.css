@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/* Default */
+@font-face {
+  font-family: Ostrich-default;
+  src: url(fonts/ostrich-sans-master/OstrichSans-Black.otf);
+}
+/* Bold */
+@font-face {
+  font-family: Ostrich-bold;
+  src: url(fonts/ostrich-sans-master/OstrichSans-Bold.otf);
+}
+/* Heavy */
+
+@font-face {
+  font-family: Ostrich-Heavy;
+  src: url(fonts/ostrich-sans-master/OstrichSans-Heavy.otf);
+}
+
+/* Light */
+@font-face {
+  font-family: Ostrich-Light;
+  src: url(fonts/ostrich-sans-master/OstrichSans-Light.otf);
+}
+
+/* Medium */
+@font-face {
+  font-family: Ostrich-Medium;
+  src: url(fonts/ostrich-sans-master/OstrichSans-Medium.otf);
+}
+
+
+/* Inline-Italic */
+@font-face {
+  font-family: Ostrich-Inline-Italic;
+  src: url(fonts/ostrich-sans-master/OstrichSansInline-Italic.otf);
+}
+
+/* Inline */
+@font-face {
+  font-family: Ostrich-Inline;
+  src: url(fonts/ostrich-sans-master/OstrichSansInline-Regular.otf);
+}
+
+/* Rounded */
+@font-face {
+  font-family: Ostrich-Rounded;
+  src: url(fonts/ostrich-sans-master/OstrichSansRounded-Medium.otf);
+}
+
+body {
+  background-color: #0D0D0D;
+  cursor: url('profile/images/pexels-photo-7130560.jpeg') 12 12, auto;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color:#D9D9D9;
+  margin: 24px auto;
+  padding: 32px;
+  text-align: center;
+  border-radius: 4px;
+}
+h1 {
+  font-family: 'Ostrich-Bold', sans-serif;
+  font-size: 3em;
+  color: #262626
+}
+
+.description{
+  font-family: 'Roboto', sans-serif;
+  color: #262626
+}
+
+.btn {
+  padding: 10px;
+  color: #262626;
+  text-decoration: none;
+  border: 1px solid #262626;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 12px;
+}
+
+h2{
+  font-family: 'Ostrich-Rounded', serif;
+  color: #262626;
+}
+
+ul>li, a {
+  color:#262626;
+}
+i {
+  font-size: 32px;
+}
+ul>li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+ul {
+  list-style:none;
+  padding-left: 0px;
+}
+
+a:hover {
+  color: #727273;
+}
+
+#avatar {
+  border-radius: 50%;
+  border: 2px solid;
+  width: 150px;
+}
+
+.btn {
+  color: #F0F0F2;
+  border: 3px solid #c266d3;
+  background-image: linear-gradient(30deg, #c266d3 50%, transparent 50%);
+  background-image: linear-gradient(30deg, #c266d3 50%, transparent 50%);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+}
+.btn:hover {
+  background-position: 100%;
+  color: #c266d3;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
