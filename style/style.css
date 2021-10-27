@@ -66,17 +66,6 @@ body {
     }
 }
 
-#cursor{
-            width: 30px;
-            height: 30px;
-            background-color:rgba(250, 128, 114, 0.774);
-            position: absolute;
-            border-radius: 50%;
-            border: 2px solid #fa8072;
-            transform: translate(-50%,-50%);
-            pointer-events: none;
-        }
-
 .container {
   width: 700px;
   margin: 0 auto;
